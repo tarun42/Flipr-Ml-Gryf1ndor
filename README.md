@@ -15,12 +15,12 @@
 ### b) Model making
 We have used **XgBoost** model for predicting the Covid cases here because boosting is an ensemble technique where new models are added to correct the errors made by existing models. It works well when there is not so much noice and also has a lot of parameters to tune to help fit the model.
 The parameters we applied are:<br/>
-        `model_xgb = xgb.XGBRegressor(colsample_bytree=0.4603, gamma=0.0468, 
+:-:`model_xgb = xgb.XGBRegressor(colsample_bytree=0.4603, gamma=0.0468, 
                                      learning_rate=0.05, max_depth=5, 
                                      min_child_weight=1.7817, n_estimators=2200,
                                      reg_alpha=0.4640, reg_lambda=0.8571,
                                      subsample=0.5213, silent=1,
-                                     random_state =45, nthread = -1 , booster = 'gbtree')`
+                                     random_state =45, nthread = -1 , booster = 'gbtree')`:-:
 
 We also tried linear and polynomial regression, also other boosting algos but xgboost gav low rmse value which when compared to mean - si index gives a very low value indicating our model is good and its r2 score was closest to 1 than all of them.
 
