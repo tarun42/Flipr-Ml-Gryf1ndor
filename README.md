@@ -1,6 +1,6 @@
 # Flipr-ML-Gryf1ndor
 ## Part 1:
-    a) Data cleaning and preprocessing:
+### a) Data cleaning and preprocessing:
 
         1) Handling missing values:
             For columns who had less number of missing values, we filled them by their mean.
@@ -12,9 +12,9 @@
         2) We plotted the correlation matrix and dropped columns who had very poor relations with target variable.
         3) Plotted Boxplot and handled the outliers
         4) Normalized features
-    b) Model making
-        We have used XgBoost model for predicting the Covid cases here because boosting is an ensemble technique where new models are added to correct the errors made by existing models. It works well when there is not so much noice and also has a lot of parameters to tune to help fit the model.
-        The parameters we applied are:
+### b) Model making
+    We have used **XgBoost** model for predicting the Covid cases here because boosting is an ensemble technique where new models are added to correct the errors made by existing models. It works well when there is not so much noice and also has a lot of parameters to tune to help fit the model.
+    The parameters we applied are:
         model_xgb = xgb.XGBRegressor(colsample_bytree=0.4603, gamma=0.0468, 
                                      learning_rate=0.05, max_depth=5, 
                                      min_child_weight=1.7817, n_estimators=2200,
