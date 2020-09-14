@@ -36,21 +36,18 @@ It helped us to find the optimized values of p,d,q for which “AIC” values we
 ### Contributors
 
 ##### 1. Mitanshu Pawan Bhoot
-Vishwakarma Institue of Technology
-mitanshu.bhoot18@vit.edu 
-7891057670
+Vishwakarma Institue of Technology<br/>
+mitanshu.bhoot18@vit.edu<br/>
 
 ##### 2. Tarun Medtiya
-Vishwakarma Institue of Technology
-tarun.medtiya18@vit.edu
-84338 91132
+Vishwakarma Institue of Technology<br/>
+tarun.medtiya18@vit.edu<br/>
 
 ##### 3. Saurabh Chandrakant Rane
-Vishwakarma Institue of Technology
-saurabh.rane18@vit.edu
-7420955379
+Vishwakarma Institue of Technology<br/>
+saurabh.rane18@vit.edu<br/>
 
 ##### 4. Sakshi Jitendra Oswal
-Vishwakarma Institue of Technology
-sakshi.oswal18@vit.edu
-7796534008
+Vishwakarma Institue of Technology<br/>
+sakshi.oswal18@vit.edu<br/>
+
