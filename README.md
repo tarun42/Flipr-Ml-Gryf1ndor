@@ -1,4 +1,4 @@
-# Repository for Flipr ML
+# Flipr-ML-Gryf1ndor
 ## Contributors
 
 ### 1. Mitanshu Pawan Bhoot
