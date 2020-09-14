@@ -14,7 +14,7 @@
         4) Normalized features
 ### b) Model making
 We have used **XgBoost** model for predicting the Covid cases here because boosting is an ensemble technique where new models are added to correct the errors made by existing models. It works well when there is not so much noice and also has a lot of parameters to tune to help fit the model.
-The parameters we applied are:
+The parameters we applied are:<br/>
         `model_xgb = xgb.XGBRegressor(colsample_bytree=0.4603, gamma=0.0468, 
                                      learning_rate=0.05, max_depth=5, 
                                      min_child_weight=1.7817, n_estimators=2200,
