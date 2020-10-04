@@ -9,11 +9,11 @@
             Grouped by state- Foreign Visitors, Avg temp
             Grouped by Type – Toilets Avl, no. of hosps
 
-        2) We plotted the correlation matrix and dropped columns who had very poor relations with target variable.
+        2) We plotted the correlation matrix and dropped the columns who had very poor relations with the target variable.
         3) Plotted Boxplot and handled the outliers
-        4) Normalized features
+        4) Normalized the features
 ### b) Model making
-We have used **XgBoost** model for predicting the Covid cases here because boosting is an ensemble technique where new models are added to correct the errors made by existing models. It works well when there is not so much noice and also has a lot of parameters to tune to help fit the model.
+We have used the **XgBoost** model for predicting the Covid cases here because boosting is an ensemble technique where new models are added to correct the errors made by existing models. It works well when there is not so much noice in the dataset and also has a lot of parameters to tune to help fit the model.
 The parameters we applied are:<br/>
 `model_xgb = xgb.XGBRegressor(colsample_bytree=0.4603, gamma=0.0468, 
                                      learning_rate=0.05, max_depth=5, 
